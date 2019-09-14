@@ -63,30 +63,24 @@
 			isa = PBXGroup;
 			children = (
 				240BAB4C1FE1224600D58435 /* AFOSetting.h */,
-				24E041281FE21E7500BE0B5B /* Public */,
-				2459239F1FE132EE0094C3E0 /* ViewControllers */,
+				24E041311FE21EF000BE0B5B /* AFOSettingForeign.h */,
+				24E041321FE21EF000BE0B5B /* AFOSettingForeign.m */,
+				24200775232CC6FD00DED743 /* controllers */,
 				240BAB4D1FE1224600D58435 /* Info.plist */,
 				24E041261FE21E2900BE0B5B /* AFOSetting.pch */,
 			);
 			path = AFOSetting;
 			sourceTree = "<group>";
 		};
-		2459239F1FE132EE0094C3E0 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				24E0412C1FE21EAD00BE0B5B /* Controllers */,
-				245923A01FE132F60094C3E0 /* Navigation */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		245923A01FE132F60094C3E0 /* Navigation */ = {
+		24200775232CC6FD00DED743 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 				245923A11FE133120094C3E0 /* AFOSettingNavigationController.h */,
 				245923A21FE133120094C3E0 /* AFOSettingNavigationController.m */,
+				24E0412D1FE21ECF00BE0B5B /* AFOSettingMainController.h */,
+				24E0412E1FE21ECF00BE0B5B /* AFOSettingMainController.m */,
 			);
-			path = Navigation;
+			name = controllers;
 			sourceTree = "<group>";
 		};
 		245923AE1FE134030094C3E0 /* Frameworks */ = {
@@ -95,24 +89,6 @@
 				24E8DAD521BBD969006F6579 /* AFOFFMpeg.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		24E041281FE21E7500BE0B5B /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				24E041311FE21EF000BE0B5B /* AFOSettingForeign.h */,
-				24E041321FE21EF000BE0B5B /* AFOSettingForeign.m */,
-			);
-			path = Public;
-			sourceTree = "<group>";
-		};
-		24E0412C1FE21EAD00BE0B5B /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				24E0412D1FE21ECF00BE0B5B /* AFOSettingMainController.h */,
-				24E0412E1FE21ECF00BE0B5B /* AFOSettingMainController.m */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
