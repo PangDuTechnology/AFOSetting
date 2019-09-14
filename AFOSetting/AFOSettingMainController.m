@@ -19,8 +19,8 @@
 }
 #pragma mark ------ title
 - (void)loadMianView{
-    self.title = AFOSETTINGTITLESTRING;
-    self.tabBarItem.title = AFOSETTINGTITLESTRING;
+    self.title = @"设置";
+    self.tabBarItem.title = @"设置";
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
